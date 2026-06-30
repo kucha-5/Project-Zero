@@ -1,0 +1,22 @@
+PROJECT ZERO V49.16 - Growth System Rework + Action Record Tasks
+
+Changed:
+- game.js, game_daydream.js, game_patrol.js.
+- Removed visible Player Level concept from the growth loop.
+- Added protagonistStoryLevel: the protagonist grows automatically through main stages.
+- Chapter 0 protagonist growth range is Lv.1 -> Lv.10.
+- Protagonist level / weapon level / skill level now follow main-stage sync instead of player EXP.
+- Existing old stage EXP now feeds Action Record EXP for compatibility.
+- Reworked Action Record screen again toward a cleaner Endfield-style left-info / right-track layout.
+- Added simple Action Record tasks: Login, Clear any stage, Complete Daydream, Claim Patrol.
+- Daydream completion and Patrol claim now add Action Record task progress / EXP.
+- Kept Advanced price at 1500 Crystal with 1800 Crystal return.
+- Kept Ultimate at US$14.99 with 4000 Crystal return.
+- Kept Ravenhado Armory standard/full rules.
+- Restored and included Project Zero custom cursor at assets/ui/pz_cursor.png.
+
+Not changed:
+- No season wording.
+- No flashy animations.
+- No changes to Chapter 0 story text.
+- No changes to battle input logic.
